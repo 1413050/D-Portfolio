@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Protfolio-Website"/>
+<link rel="shortcut icon" href="./assets/images/Logo.png" type="image/x-icon">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+
+<link rel="stylesheet" href="./css/bootstrap.min.css">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<link rel="stylesheet" href="assets/css/style.css">
+<title>Geosm Creative</title>
+
+</head>
+<style>
+    a{
+text-decoration: none;
+color: black;
+    }
+    .text{
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .nav-shd{
+      box-shadow: 0px -1px inset rgb(177, 176, 176);
+    }
+    .circles{
+      background-color: 
+#ecebeb; 
+      height:20rem ;
+      width: 15rem; 
+      border-radius: 7rem;
+    
+    }
+     .image-set{
+      background-color: black;
+  
+  height:50vh; 
+  
+margin-top: 8rem;
+
+
+    } 
+    .mg-advnt{
+      margin-right: 8rem;
+    }
+    .img{
+      width: 25vw;
+    }
+
+
+    @media only screen and (max-width: 995px) {
+ .img{
+  width: 20vw;
+ }
+ .mg-advnt{
+      margin-right: 1rem;
+    }
+
+    .image-set{
+  height: 55vh;
+
+ }
+  
+}
+    @media only screen and (max-width: 1200px) {
+      .image-set{
+  height: 55vh;
+
+ }
+
+  
+}
+
+    @media only screen and (max-width: 420px) {
+ 
+ .image-set{
+  height: 63vh;
+
+ }
+ .mg-advnt{
+      margin-right: 3rem;
+    }
+}
+    @media only screen and (max-width: 375px) {
+ 
+ .image-set{
+  height: 80vh;
+
+ }
+ .mg-advnt{
+      margin-right: 3rem;
+    }
+}
+
+
+
+</style>
+<body >
+
+
+   <!-- ====================navbar===================== -->
+ <div class="container">
+  <nav class="navbar navbar-expand-lg sticky-top navbar-light bg-white nav-shd " >
+    <div class="container-fluid">
+      <img src="./assets/images/Logo.png" alt="">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link  fw-bolder fs-5 active" aria-current="page" href="#">HOME</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fw-bolder fs-5" href="#feature">FEATURES</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link  fw-bolder fs-5" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              SERVICE <i class="fa fa-angle-down"></i>
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Video Editing</a></li>
+              <li><a class="dropdown-item" href="#">Graphic Designing</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Web Developer</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link  fw-bolder fs-5" href="#experience">EXPERIENCE</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link  fw-bolder fs-5">CONTACT</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          
+          <button class="btn btn-dark rounded-pill py-4 px-5 fs-5 fw-bold" id="UserNames" onclick="hire()">Hire!<i class="fa fa-location-arrow"></i></button>
+        </form>
+      </div>
+    </div>
+  </nav>
+ </div>
+  <!--// ====================navbar=====================// -->
+    
+<div class="container-fluid mt-5">
+    <div class="row">
+        <div class="col-md-4 d-flex flex-column align-items-center" >
+<div class="text mb-5"><p class="h1">Illustrator &</p> <p class="h1">  Visual </p> <p class="h1">Designer</p></div>
+    <img src="./line.png" width="170">
+<div class="row mt-5 d-flex justify-content-center align-items-center">
+<div class="col-md-6 ">
+    <p class="h1 px-3" style="font-family: 'Times New Roman', Times, serif;">6</p>
+<small class="text-muted">YEARS OF <br> EXPERIENCE</small>
+</div>
+<div class="col-md-6  ">
+    <p class="h1" style="font-family: 'Times New Roman', Times, serif;">683</p>
+<small class="text-muted">PROJECTS </small> <p class="text-muted" > DONE</p>
+</div>
+</div>
+
+        </div>
+        <div class="col-md-4  d-flex flex-column align-items-center">
+<img src="user.png" class="rounded-circle"  alt="">
+        </div>
+        <div class="col-md-4 d-flex flex-column align-items-center justify-content-center" align="center" style="font-family: 'Times New Roman', Times, serif; ">
+<p class=" fw-bold mb-5" style="font-size: 2rem;"><i class="fa fa-asterisk"></i></p>
+<p class="h4" align="center" style="font-family: 'Times New Roman', Times, serif; ">I'm Derdian, an Illustrator & Visual</p><P class="h4" >Designer based in Korea, I'm making  </P><p class="h4" > product and design minimal modern.</p>
+<div class="icons d-flex  align-items-center" style="margin-top: 8rem;">
+
+    <a href="#!" class="btn btn-wight rounded-circle border border-1 border-secondary mx-1"> <i class="fa fa-instagram"></i></a>
+    <a href="#!" class="btn btn-wight rounded-circle border border-1 border-secondary mx-1"><img src="./tiktok.png"  style="width: 1rem;"></a>
+    <a href="#!" class="btn btn-wight rounded-circle border border-1 border-secondary mx-1"> 	
+        <i class="fa fa-dribbble"></i></a>
+    <a href="#!" class="btn btn-white rounded-circle border border-1 border-secondary mx-1"><i class="fa fa-behance"></i></a>
+   
+</div>
+        </div>
+    </div>
+</div>    
+<div class="container-fluid mt-5 mb-5">
+    
+    <div class="col-md-4  mt-5  align-items-center d-flex justify-content-center flex-column">
+
+ <div class="1st">
+    <a href="#!" class="btn btn-dark rounded-circle fs-4 mb-2"><i class="fa fa-asterisk"></i></a>
+
+    <a href="#!" class="btn p-2 px-4 mb-2" style="background-color: #f74a29; color: white; border-radius: 2rem;">GRAPHIC DESIGN</a>
+ </div>
+
+<div class="2nd mb-2">
+      
+    <a href="#!" class="btn  btn-dark p-2 px-3 me-2" style=" border-radius: 2rem;">GRAPHIC DESIGN</a>
+    <a href="#!" class="btn   p-2 px-3" style=" background-color: #fdd308; color: white;border-radius: 2rem;">UI DESIGN</a>
+</div>
+<div class="3rd ">
+      
+    <a href="#!" class="btn  btn-secondary p-2 px-3 me-2" style=" border-radius: 2rem;">UX DESIGN</a>
+    <a href="#!" class="btn   p-2 px-3" style=" background-color: 
+    #7f1dfd; color: white;border-radius: 2rem;">3D ILLUSTRATION </a>
+</div>
+
+
+
+    </div>
+
+
+    <div class="col-md-4  d-flex flex-column align-items-center mt-5">
+<p class="text-muted"><i class="fa fa-star"></i> Hire Me!</p>
+<p class="h3" style="font-family: 'Times New Roman', Times, serif;" >Korea,Busan </p>
+<p  class="h3" style="font-family: 'Times New Roman', Times, serif;">derdian226@gmail.com</p>
+<p class="h3" style="font-family: 'Times New Roman', Times, serif;" >+850 334 5773 990</p>
+    </div>
+
+
+    <div class="col-md-4  align-items-center d-flex justify-content-center">
+<img src="./laptop.png" alt="">
+    </div>
+    
+  
+</div>
+<center>
+<hr  style="color: gray; width: 80%;" class="mt-5">
+</center>
+<div class="container" name="feature" id="feature"> 
+    <div class="row mt-5" >
+<div class="col-md-4 d-flex flex-column align-items-center" style="font-family: 'Times New Roman', Times, serif;">
+<img src="./assets/images/mock-up-poster-frame-in-modern-interior-background.webp" alt="" class="img" >
+<p class="h4 fw-bolder my-4">Feature One</p>
+<p  class="h5 text-muted "  align="center" >Lorem Ipsum is  simply a dumy text of the printing </p>
+<p class="h5 text-muted "  align="center" >and typesetting industry and has been the </p>
+<p class="h5 text-muted "  align="center" >industry standard dummy.</p>
+</div>
+<div class="col-md-4 d-flex flex-column align-items-center mb-5" style="font-family: 'Times New Roman', Times, serif;">
+    <p class="h4 fw-bolder my-4" >Feature Two</p>
+    <p  class="h5 text-muted "  align="center" >Lorem Ipsum is  simply a dumy text of the printing </p>
+    <p class="h5 text-muted "  align="center" >and typesetting industry and has been the </p>
+    <p class="h5 text-muted "  align="center" >industry standard dummy.</p>
+    
+<img  src="./assets/images/business-team-working-colleagues-successful-concept.webp"  alt=""  class="img">
+</div>
+<div class="col-md-4 d-flex flex-column align-items-center " style="font-family: 'Times New Roman', Times, serif;">
+<img src="./assets/images/business-people-using-a-tablet.webp" alt="" class="img" >
+<p class="h4 fw-bolder my-4">Feature Three</p>
+<p  class="h5 text-muted "  align="center" >Lorem Ipsum is  simply a dumy text of the printing </p>
+<p class="h5 text-muted "  align="center" >and typesetting industry and has been the </p>
+<p class="h5 text-muted "  align="center" >industry standard dummy.</p>
+</div>
+
+    </div>
+</div>
+
+<!-- ========================ADVANTAGES===================== -->
+<div class="container mt-5 mb-5 ">
+  <div class="d-flex flex-column justify-content-center align-items-center " style=" margin-bottom: 5rem;">
+    <span class="h1 fw-bolder" style="font-family: 'Times New Roman', Times, serif;">My Advantages</span>
+  </div>
+  <div class="row mt-5 d-flex justify-content-center ">
+    
+    <div class="col-md-3 col-lg-1  col-4 d-flex flex-column  mb-4  mg-advnt" >
+        <div class="circles">
+<div class="d-flex justify-content-center align-items-center mt-5 flex-column">
+  <img src="./assets/images/Untitled-1_18.gif" alt="">
+  <p class="h1 fw-bolder mt-3 " style=" font-family: 'Times New Roman', Times, serif;">93%</p>
+  <p class="h5 fw-bolder  text-muted" >FIGMA</p>
+</div>
+        </div>
+    </div>
+
+    <div class="col-md-3 col-lg-1  col-4 d-flex  flex-column mb-4  mg-advnt" >
+  <div class="circles">
+    <div class="d-flex justify-content-center align-items-center mt-5 flex-column">
+      <img src="./assets/images/Untitled-1_29.gif" alt="">
+      <p class="h1 fw-bolder mt-3 " style=" font-family: 'Times New Roman', Times, serif;">80%</p>
+      <p class="h5 fw-bolder  text-muted" >SKETCH</p>
+    </div>
+  </div>
+    </div>
+
+    <div class="col-md-3 col-lg-1  col-4 d-flex flex-column mb-4  mg-advnt" >
+  <div class="circles">
+    <div class="d-flex justify-content-center align-items-center mt-5 flex-column">
+      <img src="./assets/images/Untitled-1_18.gif" alt="">
+      <p class="h1 fw-bolder mt-3 " style=" font-family: 'Times New Roman', Times, serif;">95%</p>
+      <p class="h5 fw-bolder  text-muted" >WORDPRESS</p>
+    </div>
+  </div>
+    </div>
+
+    <div class="col-md-3 col-lg-1  col-4 d-flex flex-column mb-4  mg-advnt" >
+  <div class="circles">
+    <div class="d-flex justify-content-center align-items-center mt-5 flex-column">
+      <img src="./assets/images/Untitled-1_18.gif" alt="">
+      <p class="h1 fw-bolder mt-3 " style=" font-family: 'Times New Roman', Times, serif;">96%</p>
+      <p class="h5 fw-bolder  text-muted" >ELEMENTOR</p>
+    </div>
+  </div>
+    </div>
+
+    <div class="col-md-3 col-lg-1  col-4 d-flex flex-column mb-4  mg-advnt" >
+  <div class="circles">
+    <div class="d-flex justify-content-center align-items-center mt-5 flex-column">
+      <img src="./assets/images/Untitled-1_18.gif" alt="">
+      <p class="h1 fw-bolder mt-3 " style=" font-family: 'Times New Roman', Times, serif;">85%</p>
+      <p class="h5 fw-bolder  text-muted" >HTML</p>
+    </div>
+  </div>
+    </div>
+    
+    <div class="col-md-3 col-lg-1  col-4 d-flex flex-column mb-4  mg-advnt" >
+  <div class="circles">
+    <div class="d-flex justify-content-center align-items-center mt-5 flex-column">
+      <img src="./assets/images/Untitled-1_18.gif" alt="">
+      <p class="h1 fw-bolder mt-3 " style=" font-family: 'Times New Roman', Times, serif;">80%</p>
+      <p class="h5 fw-bolder  text-muted" >JAVASCRIPT</p>
+    </div>
+  </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- =======================TABLE========================= -->
+<div class="container d-flex flex-column justify-content-center " name="experience" id="experience"  style=" margin-top: 5rem;">
+
+  <div class="d-flex flex-column justify-content-center align-items-center " style="margin-bottom: 5rem;">
+    <span class="h1 " style="font-family: 'Times New Roman', Times, serif;">Experience & Education</span>
+  </div>
+  <div class="row d-flex  justify-content-center align-items-center py-3 " style="border-bottom: 0.3rem solid #ecebeb;">
+    <div class="col-2"><p class="h3 text-muted">2016</p></div>
+    <div class="col-7 h2  " style="font-family: 'Times New Roman', Times, serif;"> Bachelor Dergree of Design</div>
+    <div class="col-2"><p class="h5 text-muted">RMIT UNIVERSITY</p></div>
+
+  </div>
+
+
+  <div class="row d-flex  justify-content-center align-items-center pt-5 pb-2" style="border-bottom: 0.3rem solid #ecebeb;">
+    <div class="col-2"><p class="h3 text-muted">2017</p></div>
+    <div class="col-7 h2  " style="font-family: 'Times New Roman', Times, serif;"> UI/UX Design Certificate</div>
+    <div class="col-2"><p class="h5 text-muted">BUILD LEARNING NOTION</p></div>
+
+  </div>
+
+  
+  <div class="row d-flex  justify-content-center align-items-center pt-5 pb-2" style="border-bottom: 0.3rem solid #ecebeb;">
+    <div class="col-2"><p class="h3 text-muted">2017</p></div>
+    <div class="col-7 h2  " style="font-family: 'Times New Roman', Times, serif;"> Web Designer</div>
+    <div class="col-2"><p class="fs-5 text-muted">FREELANCER</p></div>
+
+  </div>
+
+  
+  <div class="row d-flex  justify-content-center align-items-center pt-5 pb-2" style="border-bottom: 0.3rem solid #ecebeb;">
+    <div class="col-2"><p class="h3 text-muted">2018</p></div>
+    <div class="col-7 h2  " style="font-family: 'Times New Roman', Times, serif;"> Graphics Designer</div>
+    <div class="col-2"><p class="h5 text-muted">TX PIXEL CORP</p></div>
+
+  </div>
+
+  
+  <div class="row d-flex  justify-content-center align-items-center pt-5 pb-2" style="border-bottom: 0.3rem solid #ecebeb;">
+    <div class="col-2"><p class="h3 text-muted">2019-Present</p></div>
+    <div class="col-7 h2  " style="font-family: 'Times New Roman', Times, serif;">Art Director /     Co-Founder</div>
+    <div class="col-2 "><p class="h5 text-muted">ELMOUS STUDIO</p></div>
+
+  </div>
+
+</div>
+<!-- =======================Contextar==================== -->
+<div class="image-set">
+<div class="container " >
+  <div class="row my-5 " style="font-family: 'Times New Roman', Times, serif;">
+  
+    <div class="col-md-11"></div>
+    <div class="col-md-1 text-white d-flex fs-4 mt-5" ><i class="fa fa-star me-1 " style="font-size: 0.5rem;"></i>Elmous 	
+      <i class="fa fa-circle mt-3 ms-2"style="font-size: 0.5rem;"></i></div>
+  
+  </div>
+
+  <div class="row mt-5"  style="font-family: 'Times New Roman', Times, serif;">
+    <div class="col-md-8 text-white  d-flex" style="font-size: 4rem;"><i class="fa fa-minus me-5"style="margin-top: 4.5rem;" ></i>Let's Take Our Relationship To The Next Level Your Business</div>
+    <div class="col-md-4"></div>
+  </div>
+
+
+  <div class="row mt-5"  style="font-family: 'Times New Roman', Times, serif;">
+    <div class="col-md-3">
+          
+      <button class="btn btn-light rounded-pill py-3 px-5 fs-4 fw-bold" type="submit">Let's Talk <i class="fa fa-location-arrow"></i></button>
+  </div>
+  <div class="col-md-6 text-white  d-flex" style="font-size: 4rem;"></div>
+  <div class="col-md-3 text-white mt-5 d-flex fs-4 justify-content-center align-items-center " align="center" >
+  ~ I mistaken idea of  Lorem <br> ipsum dolor mediocipterim.</div>
+</div>
+
+
+  
+</div>
+</div>
+
+
+
+<!-- ==========================FOOTER====================== -->
+
+<div class="container">
+  <div class="row my-3 d-flex  justify-content-center align-items-center" style="font-family: 'Times New Roman', Times, serif;">
+    <div class="col-md-2 d-flex  justify-content-center align-items-center"><img src="./assets/images/Logo.png" ></div>
+    <div class="col"></div>
+    <div class="col"></div>
+    <div class="col-md-1 mt-3 d-flex  justify-content-center align-items-center pointer-event"><p class="fs-5"> Home </p></div>
+    <div class="col-md-1 mt-3 d-flex  justify-content-center align-items-center "><p class="fs-5"> Protfolio</p></div>
+    <div class="col-md-1 mt-3 d-flex  justify-content-center align-items-center "><p class="fs-5"> Service</p></div>
+    <div class="col-md-1 mt-3 d-flex  justify-content-center align-items-center "><p class="fs-5"> Work </p></div>
+    <div class="col-md-1 mt-3 d-flex  justify-content-center align-items-center "><p class="fs-5"> Hire me!</p></div>
+    
+    <div class="col"></div>
+    <div class="col"></div>
+    <div class="col-md-3 d-flex  justify-content-center align-items-center">
+      <div class="icons d-flex  align-items-center mt-3" >
+
+      <a href="#!" class="btn btn-wight rounded-circle border border-1 border-secondary mx-1"> <i class="fa fa-instagram"></i></a>
+      <a href="#!" class="btn btn-wight rounded-circle border border-1 border-secondary mx-1"><img src="./tiktok.png"  style="width: 1rem;"></a>
+      <a href="#!" class="btn btn-wight rounded-circle border border-1 border-secondary mx-1"> 	
+          <i class="fa fa-dribbble text-dark"></i></a>
+      <a href="#!" class="btn btn-white rounded-circle border border-1 border-secondary mx-1 me-3"><i class="fa fa-behance "></i></a>
+     
+  </div>
+</div>
+
+ <div class="col"><p class="mt-3 fs-5  d-flex  justify-content-center align-items-center" > &copy;2022 ELMOUS</p></div>
+  </div>
+</div>
+</div=>
+
+<!-- //======================rounded icon===========================// -->
+<script src="https://kit.fontawesome.com/66ede70a5a.js" crossorigin="anonymous"></script>
+<script src="./js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+</html>
